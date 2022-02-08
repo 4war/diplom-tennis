@@ -1,0 +1,19 @@
+#navbar{
+  height: 70px;
+  padding-left: 80px;
+  position: fixed;
+  background-color: #0f1723;
+}
+
+#mainContent{
+  padding-top: 70px;
+  align-content: center;
+  text-align: center;
+  background-color: #1a2a3d;
+  color: #e0e1e3;
+}
+
+body{
+  background-color: #1a2a3d;
+  height: 100vh;
+}
