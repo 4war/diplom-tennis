@@ -3,8 +3,11 @@
 </div>
 
 <div>
-  <button class="btn btn-primary" (click)="">
-    Турниры
-  </button>
+  <app-navbar
+    id="navbar"
+    class="navbar navbar-dark bg-dark">
+  </app-navbar>
 </div>
-<app-section-tournament></app-section-tournament>
+<div class="col-sm-10 mx-sm-auto pt-3" id="dashboard">
+  <router-outlet></router-outlet>
+</div>
